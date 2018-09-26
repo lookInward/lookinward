@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #edeff0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.re-btn-primary {
+    background: #0c9;
+    color:#fff;
+    border-radius: 4px;
+}
+
+.re-btn-primary:hover {
+    color:#fff;
+    border-radius: 4px;
+    background: #009973;
+}

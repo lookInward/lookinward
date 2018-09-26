@@ -1,0 +1,21 @@
+﻿{extend name="public/base" /} {block name="seo"}
+<title>{$title|default='页面标题'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+</head>
+{/block}
+
+<body>
+
+	{block name="content"}
+	<div id="app-content"></div>
+
+
+	{/block} 
+	{block name="js"}
+	<script type="text/javascript" src="__APP__/js/init.js"></script>
+	 {/block}
+
+</body>
+
+</html>
